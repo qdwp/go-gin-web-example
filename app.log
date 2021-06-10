@@ -1,0 +1,34 @@
+{"level":"info","time":"2021-06-04 17:27:06","msg":"[Shutdown Server ...]"}
+{"level":"info","time":"2021-06-04 17:27:06","msg":"[Server exiting]"}
+{"level":"info","time":"2021-06-04 17:28:14","msg":"Start http server ... [:80]"}
+{"level":"info","time":"2021-06-04 17:28:22","msg":"[Shutdown Server ...]"}
+{"level":"info","time":"2021-06-04 17:28:22","msg":"[Server exiting]"}
+{"level":"info","time":"2021-06-04 17:28:30","msg":"Start http server ... [:80]"}
+{"level":"info","time":"2021-06-04 17:28:36","msg":"[Shutdown Server ...]"}
+{"level":"info","time":"2021-06-04 17:28:36","msg":"[Server exiting]"}
+{"level":"info","time":"2021-06-04 17:28:53","msg":"Start http server ... [:80]"}
+{"level":"info","time":"2021-06-04 17:29:44","msg":"[Shutdown Server ...]"}
+{"level":"info","time":"2021-06-04 17:29:44","msg":"[Server exiting]"}
+{"level":"info","time":"2021-06-04 17:29:46","msg":"Start http server ... [:80]"}
+{"level":"info","time":"2021-06-04 17:30:13","msg":"request start","api":"/ping","method":"GET","body":""}
+{"level":"info","time":"2021-06-04 17:30:13","msg":"request completed","api":"/ping","cost":"62.49µs","status":"200","response":""}
+{"level":"info","time":"2021-06-04 17:31:39","msg":"[Shutdown Server ...]"}
+{"level":"info","time":"2021-06-04 17:31:39","msg":"[Server exiting]"}
+{"level":"info","time":"2021-06-04 17:31:42","msg":"Start http server ... [:80]"}
+{"level":"info","time":"2021-06-04 17:31:52","msg":"request start","api":"/v1/post","method":"POST","body":"{\n  data_id:\"123\"\n}"}
+{"level":"info","time":"2021-06-04 17:31:52","msg":"PostCallRequest: [{}]"}
+{"level":"error","time":"2021-06-04 17:31:52","msg":"[Bind PostCallRequest failed, err:  invalid character 'd' looking for beginning of object key string]"}
+{"level":"info","time":"2021-06-04 17:31:52","msg":"request completed","cost":"184.269µs","status":"400","response":"{}","api":"/v1/post"}
+{"level":"info","time":"2021-06-04 17:32:00","msg":"request start","api":"/v1/post","method":"POST","body":"{\n  data_id:\"123\"\n}"}
+{"level":"info","time":"2021-06-04 17:32:00","msg":"PostCallRequest: [{}]"}
+{"level":"error","time":"2021-06-04 17:32:00","msg":"[Bind PostCallRequest failed, err:  invalid character 'd' looking for beginning of object key string]"}
+{"level":"info","time":"2021-06-04 17:32:00","msg":"request completed","api":"/v1/post","cost":"108.114µs","status":"400","response":"{}"}
+{"level":"info","time":"2021-06-04 17:33:00","msg":"[Shutdown Server ...]"}
+{"level":"info","time":"2021-06-04 17:33:00","msg":"[Server exiting]"}
+{"level":"info","time":"2021-06-04 17:33:02","msg":"Start http server ... [:80]"}
+{"level":"info","time":"2021-06-04 17:33:02","msg":"request start","api":"/v1/post","method":"POST","body":"{\n  data_id:\"123\"\n}"}
+{"level":"info","time":"2021-06-04 17:33:02","msg":"PostCallRequest: [{}]"}
+{"level":"error","time":"2021-06-04 17:33:02","msg":"[Bind PostCallRequest failed, err:  invalid character 'd' looking for beginning of object key string]"}
+{"level":"info","time":"2021-06-04 17:33:02","msg":"request completed","api":"/v1/post","cost":"192.319µs","status":"400","response":"{}"}
+{"level":"info","time":"2021-06-04 17:46:59","msg":"[Shutdown Server ...]"}
+{"level":"info","time":"2021-06-04 17:46:59","msg":"[Server exiting]"}

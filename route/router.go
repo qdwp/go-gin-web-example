@@ -8,7 +8,16 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+var RouterEngine *gin.Engine
+
 func GetRouterEngine() *gin.Engine {
+	if RouterEngine == nil {
+		RouterEngine = InitRouterEngine()
+	}
+	return RouterEngine
+}
+
+func InitRouterEngine() *gin.Engine {
 
 	router := gin.New()
 	// router.Use(gin.Logger())

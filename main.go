@@ -13,6 +13,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/joho/godotenv/autoload"
+	_ "go.uber.org/automaxprocs"
 )
 
 // Initialize resource or load configrations.
